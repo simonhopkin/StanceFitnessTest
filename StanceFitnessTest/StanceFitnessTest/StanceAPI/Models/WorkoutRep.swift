@@ -12,3 +12,4 @@ struct WorkoutRep: Decodable, Equatable {
     let intensity: Double
     let timestamp: Date
 }
+

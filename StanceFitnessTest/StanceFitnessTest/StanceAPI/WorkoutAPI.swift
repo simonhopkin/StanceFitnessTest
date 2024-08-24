@@ -28,7 +28,12 @@ struct WorkoutAPI: WorkoutAPIProtocol {
         let (data, _) = try await URLSession.shared.data(for: urlRequest)
         
         // decode the data
-        let workout = try JSONDecoder().decode(WorkoutSession.self, from: data)
+        let decoder = JSONDecoder()
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd HH:mm:ss Z"
+        decoder.dateDecodingStrategy = .formatted(dateFormatter)
+        
+        let workout = try decoder.decode(WorkoutSession.self, from: data)
         
         return workout
     }

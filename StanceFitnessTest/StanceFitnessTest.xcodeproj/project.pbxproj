@@ -25,6 +25,7 @@
 		3EEED7972C79E12F0060EBB0 /* WorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEED7962C79E12F0060EBB0 /* WorkoutService.swift */; };
 		3EEED7992C79E2240060EBB0 /* WorkoutServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEED7982C79E2240060EBB0 /* WorkoutServiceTest.swift */; };
 		3EEED79C2C79E24A0060EBB0 /* MockWorkoutAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEED79B2C79E24A0060EBB0 /* MockWorkoutAPI.swift */; };
+		3EEED79E2C79E5D50060EBB0 /* WorkoutSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEED79D2C79E5D50060EBB0 /* WorkoutSessionViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		3EEED7962C79E12F0060EBB0 /* WorkoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutService.swift; sourceTree = "<group>"; };
 		3EEED7982C79E2240060EBB0 /* WorkoutServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutServiceTest.swift; sourceTree = "<group>"; };
 		3EEED79B2C79E24A0060EBB0 /* MockWorkoutAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWorkoutAPI.swift; sourceTree = "<group>"; };
+		3EEED79D2C79E5D50060EBB0 /* WorkoutSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutSessionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,6 +183,7 @@
 		3EEED7902C79DEB70060EBB0 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				3EEED79D2C79E5D50060EBB0 /* WorkoutSessionViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -347,6 +350,7 @@
 				3EEED7542C79D9CD0060EBB0 /* AppDelegate.swift in Sources */,
 				3EEED78F2C79DC0E0060EBB0 /* WorkoutAPI.swift in Sources */,
 				3EEED7972C79E12F0060EBB0 /* WorkoutService.swift in Sources */,
+				3EEED79E2C79E5D50060EBB0 /* WorkoutSessionViewModel.swift in Sources */,
 				3EEED7872C79DB280060EBB0 /* WorkoutSession.swift in Sources */,
 				3EEED7562C79D9CD0060EBB0 /* SceneDelegate.swift in Sources */,
 				3EEED78B2C79DB410060EBB0 /* WorkoutRep.swift in Sources */,
