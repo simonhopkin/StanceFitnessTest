@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct WorkoutRep: Decodable {
+struct WorkoutRep: Decodable, Equatable {
     let speed: Double
     let intensity: Double
     let timestamp: Date

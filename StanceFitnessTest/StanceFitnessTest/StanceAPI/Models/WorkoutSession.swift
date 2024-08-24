@@ -7,6 +7,10 @@
 
 import Foundation
 
-struct WorkoutSession: Decodable {
+struct WorkoutSession: Decodable, Equatable {
     let sets: [WorkoutSet]
+    
+    static func == (lhs: WorkoutSession, rhs: WorkoutSession) -> Bool {
+        lhs.sets == rhs.sets
+    }
 }

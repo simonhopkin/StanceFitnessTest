@@ -23,6 +23,8 @@
 		3EEED78F2C79DC0E0060EBB0 /* WorkoutAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEED78E2C79DC0E0060EBB0 /* WorkoutAPI.swift */; };
 		3EEED7952C79E0770060EBB0 /* WorkoutServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEED7942C79E0770060EBB0 /* WorkoutServiceProtocol.swift */; };
 		3EEED7972C79E12F0060EBB0 /* WorkoutService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEED7962C79E12F0060EBB0 /* WorkoutService.swift */; };
+		3EEED7992C79E2240060EBB0 /* WorkoutServiceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEED7982C79E2240060EBB0 /* WorkoutServiceTest.swift */; };
+		3EEED79C2C79E24A0060EBB0 /* MockWorkoutAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EEED79B2C79E24A0060EBB0 /* MockWorkoutAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		3EEED78E2C79DC0E0060EBB0 /* WorkoutAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutAPI.swift; sourceTree = "<group>"; };
 		3EEED7942C79E0770060EBB0 /* WorkoutServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutServiceProtocol.swift; sourceTree = "<group>"; };
 		3EEED7962C79E12F0060EBB0 /* WorkoutService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutService.swift; sourceTree = "<group>"; };
+		3EEED7982C79E2240060EBB0 /* WorkoutServiceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutServiceTest.swift; sourceTree = "<group>"; };
+		3EEED79B2C79E24A0060EBB0 /* MockWorkoutAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockWorkoutAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,7 +134,9 @@
 		3EEED7692C79D9D00060EBB0 /* StanceFitnessTestTests */ = {
 			isa = PBXGroup;
 			children = (
+				3EEED79A2C79E22A0060EBB0 /* Mocks */,
 				3EEED76A2C79D9D00060EBB0 /* StanceFitnessTestTests.swift */,
+				3EEED7982C79E2240060EBB0 /* WorkoutServiceTest.swift */,
 			);
 			path = StanceFitnessTestTests;
 			sourceTree = "<group>";
@@ -194,6 +200,14 @@
 				3EEED7942C79E0770060EBB0 /* WorkoutServiceProtocol.swift */,
 			);
 			path = Protocols;
+			sourceTree = "<group>";
+		};
+		3EEED79A2C79E22A0060EBB0 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				3EEED79B2C79E24A0060EBB0 /* MockWorkoutAPI.swift */,
+			);
+			path = Mocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,7 +358,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3EEED79C2C79E24A0060EBB0 /* MockWorkoutAPI.swift in Sources */,
 				3EEED76B2C79D9D00060EBB0 /* StanceFitnessTestTests.swift in Sources */,
+				3EEED7992C79E2240060EBB0 /* WorkoutServiceTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,7 +7,12 @@
 
 import Foundation
 
-struct WorkoutSet: Decodable {
+struct WorkoutSet: Decodable, Equatable {
     let timestamp: Date
     let reps: [WorkoutRep]
+    
+    static func == (lhs: WorkoutSet, rhs: WorkoutSet) -> Bool {
+        lhs.timestamp == rhs.timestamp &&
+        lhs.reps == rhs.reps
+    }
 }
