@@ -1,5 +1,5 @@
 //
-//  WorkoutSessionAPI.swift
+//  WorkoutAPI.swift
 //  StanceFitnessTest
 //
 //  Created by Simon Hopkin on 24/08/2024.
@@ -7,8 +7,8 @@
 
 import Foundation
 
-/// Interacts with the Stance WorkoutSession API endpoint
-struct WorkoutSessionAPI: WorkoutSessionAPIProtocol {
+/// Interacts with the Stance Workout API endpoints
+struct WorkoutAPI: WorkoutAPIProtocol {
     
     private let workoutSessionURLString = "https://run.mocky.io/v3/72f399b0-5014-4715-b23e-521a0157d569"
     private let requestTimeout = 30.0 // seconds
